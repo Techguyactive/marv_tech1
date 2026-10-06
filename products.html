@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marv-Tech - Products</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><span class="logo-dot"></span> Marv-Tech</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html" class="active">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="checkout.html">Checkout</a>
+        </nav>
+        <div class="header-actions">
+            <div class="cart-icon">
+                <i data-lucide="shopping-bag"></i>
+                <span class="cart-count" style="display: none;">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <h1>Tech Collection</h1>
+            <p>Browse our hand-picked catalogue of high-performance accessories.</p>
+        </div>
+
+        <div class="filter-bar">
+            <div class="search-wrapper">
+                <i data-lucide="search"></i>
+                <input type="text" placeholder="Search gadgets by name or features...">
+            </div>
+            <div class="sort-wrapper">
+                <select>
+                    <option>Sort by: Featured</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest Arrivals</option>
+                </select>
+                <i data-lucide="chevron-down"></i>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active">All Tech</button>
+                <button class="filter-btn">Audio</button>
+                <button class="filter-btn">Wearables</button>
+                <button class="filter-btn">Productivity</button>
+                <button class="filter-btn">Smart Home</button>
+            </div>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image-placeholder">
+                    <span class="product-badge">Audio</span>
+                    <i data-lucide="headphones"></i>
+                </div>
+                <div class="product-info">
+                    <h3>AeroSound Max</h3>
+                    <p class="description">Hybrid active noise-canceling headphones with 40-hour battery life...</p>
+                    <div class="product-footer">
+                        <span class="price">$199.99</span>
+                        <button class="add-btn"><i data-lucide="plus"></i> Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder">
+                    <span class="product-badge">Wearables</span>
+                    <i data-lucide="watch"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Chronos Watch v3</h3>
+                    <p class="description">Sleek smartwatch featuring an always-on AMOLED display,...</p>
+                    <div class="product-footer">
+                        <span class="price">$249.99</span>
+                        <button class="add-btn"><i data-lucide="plus"></i> Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder">
+                    <span class="product-badge">Productivity</span>
+                    <i data-lucide="keyboard"></i>
+                </div>
+                <div class="product-info">
+                    <h3>KeyCraft Pro</h3>
+                    <p class="description">Compact hot-swappable mechanical keyboard featuring tactile brown...</p>
+                    <div class="product-footer">
+                        <span class="price">$159.99</span>
+                        <button class="add-btn"><i data-lucide="plus"></i> Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder">
+                    <span class="product-badge">Audio</span>
+                    <i data-lucide="volume-2"></i>
+                </div>
+                <div class="product-info">
+                    <h3>SyncBuds Wireless</h3>
+                    <p class="description">Ultra-lightweight true wireless earbuds with seamless device pairing...</p>
+                    <div class="product-footer">
+                        <span class="price">$89.99</span>
+                        <button class="add-btn"><i data-lucide="plus"></i> Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder">
+                    <span class="product-badge">Smart Home</span>
+                    <i data-lucide="crosshair"></i>
+                </div>
+                <div class="product-info">
+                    <h3>OmniSphere Hub</h3>
+                    <p class="description">Voice-controlled smart speaker and home automation controller...</p>
+                    <div class="product-footer">
+                        <span class="price">$119.99</span>
+                        <button class="add-btn"><i data-lucide="plus"></i> Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder">
+                    <span class="product-badge">Wearables</span>
+                    <i data-lucide="glasses"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Nexus VR Elite</h3>
+                    <p class="description">Standalone virtual reality headset with dual 4K resolution lenses
+

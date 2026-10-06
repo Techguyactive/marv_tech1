@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marv-Tech - Cart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><span class="logo-dot"></span> Marv-Tech</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html" class="active">Cart</a>
+            <a href="checkout.html">Checkout</a>
+        </nav>
+        <div class="header-actions">
+            <div class="cart-icon">
+                <i data-lucide="shopping-bag"></i>
+                <span class="cart-count" style="display: none;">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <h1>Your Cart</h1>
+        </div>
+
+        <div class="empty-cart">
+            <i data-lucide="shopping-bag"></i>
+            <h2>Your cart is empty</h2>
+            <p>Fill it with cutting-edge tech and next-gen gear.</p>
+            <button class="btn-start-shopping">Start Shopping</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo"><span class="logo-dot"></span> Marv-Tech</div>
+                <p>Providing cutting-edge hardware for the creative mind.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">All Products</a></li>
+                    <li><a href="cart.html">Your Cart</a></li>
+                    <li><a href="checkout.html">Checkout Page</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Niche Categories</h4>
+                <ul>
+                    <li><a href="#">Audio Equipment</a></li>
+                    <li><a href="#">Smart Wearables</a></li>
+                    <li><a href="#">Productivity Tools</a></li>
+                    <li><a href="#">Home Automation</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 Marv-Tech Inc. Built as an educational learning workspace.</div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>

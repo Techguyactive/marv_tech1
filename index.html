@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marv-Tech - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span class="logo-dot"></span>
+            Marv-Tech
+        </div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="checkout.html">Checkout</a>
+        </nav>
+        <div class="header-actions">
+            <div class="cart-icon">
+                <i data-lucide="shopping-bag"></i>
+                <span class="cart-count" style="display: none;">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <span class="badge">Future Tech Today</span>
+            <h1>Upgrade Your Setup. Elevate Your Play.</h1>
+            <p>Explore our highly curated collection of next-generation gadgets, high-fidelity audio equipment, wearables, and smart home productivity tools.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Shop Collection</button>
+                <button class="btn btn-secondary">Explore Audio</button>
+            </div>
+        </section>
+
+        <section class="categories-section">
+            <h2>Curated Niche Categories</h2>
+            <p>Select a category to start customizing your setup</p>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <i data-lucide="music"></i>
+                    <h3>Audio Gear</h3>
+                    <p>Studio monitors and wireless audio</p>
+                </div>
+                <div class="category-card">
+                    <i data-lucide="clock-arrow-up"></i>
+                    <h3>Wearables</h3>
+                    <p>Health sensors and VR headsets</p>
+                </div>
+                <div class="category-card">
+                    <i data-lucide="square-dot"></i>
+                    <h3>Productivity</h3>
+                    <p>Mechanical keys and mouse inputs</p>
+                </div>
+                <div class="category-card">
+                    <i data-lucide="circle"></i>
+                    <h3>Smart Home</h3>
+                    <p>Speakers and intelligent lights</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-section">
+            <div class="featured-header" style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 30px; padding: 0 20px;">
+                <div class="featured-title">
+                    <h2 style="font-size: 1.75rem; font-weight: 500; margin-bottom: 8px;">Featured Gadgets</h2>
+                    <p style="color: var(--text-light); font-size: 0.95rem;">Highly requested and top-rated by students and professionals</p>
+                </div>
+                <a href="products.html" class="view-all" style="font-size: 0.9rem; color: var(--text-light); text-decoration: none;">View All Products</a>
+            </div>
+
+            <div class="products-grid" style="padding: 0 20px;">
+                <div class="product-card">
+                    <div class="product-image-placeholder">
+                        <span class="product-badge">Audio</span>
+                        <i data-lucide="headphones"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>AeroSound Max</h3>
+                        <p class="description">Hybrid active noise-canceling headphones with 40-hour battery life...</p>
+                        <div class="product-footer">
+                            <span class="price">$199.99</span>
+                            <button class="add-btn"><i data-lucide="plus"></i> Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-placeholder">
+                        <span class="product-badge">Wearables</span>
+                        <i data-lucide="watch"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chronos Watch v3</h3>
+                        <p class="description">Sleek smartwatch featuring an always-on AMOLED display,...</p>
+                        <div class="product-footer">
+                            <span class="price">$249.99</span>
+                            <button class="add-btn"><i data-lucide="plus"></i> Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-placeholder">
+                        <span class="product-badge">Productivity</span>
+                        <i data-lucide="keyboard"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>KeyCraft Pro</h3>
+                        <p class="description">Compact hot-swappable mechanical keyboard featuring tactile brown...</p>
+                        <div class="product-footer">
+                            <span class="price">$159.99</span>
+                            <button class="add-btn"><i data-lucide="plus"></i> Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-placeholder">
+                        <span class="product-badge">Audio</span>
+                        <i data-lucide="volume-2"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>SyncBuds Wireless</h3>
+                        <p class="description">Ultra-lightweight true wireless earbuds with seamless device pairing...</p>
+                        <div class="product-footer">
+                            <span class="price">$89.99</span>
+                            <button class="add-btn"><i data-lucide="plus"></i> Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section" style="margin-top: 80px;">
+            <div class="newsletter-box">
+                <span class="badge">Limited Discount</span>
+                <h2>Get 15% Off Your First Purchase</h2>
+                <p>Sign up for our tech bulletin. Stay ahead of releases, and unlock the code TECH15 instantly.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo"><span class="logo-dot"></span> Marv-Tech</div>
+                <p>Providing cutting-edge hardware for the creative mind.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">All Products</a></li>
+                    <li><a href="cart.html">Your Cart</a></li>
+                    <li><a href="checkout.html">Checkout Page</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Niche Categories</h4>
+                <ul>
+                    <li><a href="#">Audio Equipment</a></li>
+                    <li><a href="#">Smart Wearables</a></li>
+                    <li><a href="#">Productivity Tools</a></li>
+                    <li><a href="#">Home Automation</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 Marv-Tech Inc. Built as an educational learning workspace.</div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
